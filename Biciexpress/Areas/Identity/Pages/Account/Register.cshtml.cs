@@ -44,7 +44,7 @@ namespace Biciexpress.Areas.Identity.Pages.Account
             [Display(Name = "Email")]
             public string Email { get; set; }
 
-            [Required (ErrorMessage ="Este campo es Obligatorio")]
+            [Required (ErrorMessage ="Este campo es reeeeeee Obligatorio")]
             [StringLength(100, ErrorMessage = "El {0} debe tener minimo {2} y maximo {1} caracteress.", MinimumLength = 6)]
             [DataType(DataType.Password)]
             [Display(Name = "Password")]
